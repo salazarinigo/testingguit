@@ -2,5 +2,8 @@
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim i As Integer = 4
         MsgBox(i + 5)
+
+        i = 10 + 40
+
     End Sub
 End Class
